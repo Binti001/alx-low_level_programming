@@ -12,7 +12,7 @@ int main(void)
 	int ch;
 
 	ch = 'a';
-	while ('a' < 'z')
+       while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
