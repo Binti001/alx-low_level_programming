@@ -10,19 +10,17 @@ int main(void)
 {
 	int ch;
 
-	ch = 'a';
-		while (ch <= 'z')
+		for (ch = 'a'; ch <= 'z'; ch++)
 		{
-			putchar(ch);
 			if (ch == 'e')
-		{
-			continue;
-		}
+			{
+				continue;
+			}
 			if (ch == 'q')
-		{
-			continue;
-		}
-			ch++;
+			{
+				continue;
+			}
+		putchar(ch);
 		}
 		putchar('\n');
 		return (0);
