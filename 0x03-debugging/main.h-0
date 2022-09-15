@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-largest = largest_number(a, b, c);
+void positive_or_negative(int i);
 
 #endif /* MAIN_H */
 
