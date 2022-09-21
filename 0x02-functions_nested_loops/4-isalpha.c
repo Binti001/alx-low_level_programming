@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *  _islower - checks if the character is lowercase
+ *  _isalpha - checks if the character is lowercase
  *  Return: returns 1 and 0 depending on condition
  *
  *  @c: a character arguement
@@ -13,7 +13,7 @@ int _isalpha(int c)
 {
 	int result;
 
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' &&c <= 'Z'))
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
 		result = 1;
 	}
