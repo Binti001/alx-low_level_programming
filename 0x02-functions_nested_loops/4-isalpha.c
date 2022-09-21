@@ -9,11 +9,11 @@
  *  Returns: 0
  */
 
-int _islower(int c)
+int _isalpha(int c)
 {
 	int result;
 
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' &&c <= 'Z'))
 	{
 		result = 1;
 	}
