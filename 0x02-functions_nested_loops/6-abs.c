@@ -2,6 +2,8 @@
 
 /**
 * _abs - prints absolute numbers
+* @i : is a character arguement
+* Return : 0
 */
 
 int _abs(int i)
