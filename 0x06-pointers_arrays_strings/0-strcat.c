@@ -21,3 +21,4 @@ char *_strcat(char *dest, char *src)
 		s1[len1 + i] = s2[i];
 	}
 	return (s1);
+}
