@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * _strncat - concatenates the string pointed to @src
@@ -12,11 +13,9 @@
 char *_strncat(char *dest, char *src, int n)
 {
 	int len1;
-	int len2;
 	int i;
 
-	len1 = getStringLength(dest);
-	len2 = getStringLength(src);
+	len1 = strlen(dest);
 	for (i = 0; i < n; i++)
 	{
 		dest[len1 + i] = src[i];
