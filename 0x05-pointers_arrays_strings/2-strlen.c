@@ -1,11 +1,19 @@
 #include "main.h"
 
 /**
- * reset_to_98 - updates the value it points to
- * @n: an int parameter
+ * _strlen- updates the value it points to
+ * @s: a char parameter
  * Return: 0
  */
-void reset_to_98(int *n)
+
+int _strlen(char *s)
 {
-	*n = 98;
+	int len;
+
+	len = 0;
+	while (*(s + len) != '\0')
+	{
+		len++;
+	}
+	return (len);
 }
