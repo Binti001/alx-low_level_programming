@@ -18,7 +18,7 @@ void print_rev(char *s);
 		ch = s[i];
 		s[i] = s[len - 1 - i];
 		s[len - 1 - i] = ch;
+		_putchar(*(s + len));
 	}
-	_putchar(*(s + len));
 	_putchar('\n');
 }
