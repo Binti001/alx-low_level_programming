@@ -7,7 +7,6 @@
 
 int main(void)
 {
-	int i;
 	int j;
 	int a;
 	int b;
@@ -15,6 +14,10 @@ int main(void)
 	for (b = '0'; b <= '9'; b++)
 	{
 		putchar(b);
+		if (b == '9')
+		{
+			break;
+		}
 		for (a = 0; a < 1; a++)
 		{
 			putchar(',');
