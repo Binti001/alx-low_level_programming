@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - prints a number, comma then space
@@ -14,16 +14,16 @@ int main(void)
 
 	for (b = '0'; b <= '9'; b++)
 	{
-		_putchar(b);
+		putchar(b);
 		for (a = 0; a < 1; a++)
 		{
-			_putchar(',');
+			putchar(',');
 		for (j = 0; j < 1; j++)
 		{
-			_putchar(' ');
+			putchar(' ');
 		}
 		}
 	}
-	_putchar('\n');
+	putchar('\n');
 		return (0);
 }
