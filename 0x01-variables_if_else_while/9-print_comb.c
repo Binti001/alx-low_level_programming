@@ -1,25 +1,29 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Entry point
- *
+ * main - prints a number, comma then space
  * Return: 0
  */
 
 int main(void)
 {
+	int i;
+	int j;
 	int a;
+	int b;
 
-	a = '0';
-	while (a <= '9')
+	for (b = '0'; b <= '9'; b++)
 	{
-		while (d <= '10')
+		_putchar(b);
+		for (a = 0; a < 1; a++)
 		{
-			putchar(,\);
+			_putchar(',');
+		for (j = 0; j < 1; j++)
+		{
+			_putchar(' ');
 		}
-		putchar(a);
-		a++;
+		}
 	}
-	putchar('\n');
-	return (0);
+	_putchar('\n');
+		return (0);
 }
