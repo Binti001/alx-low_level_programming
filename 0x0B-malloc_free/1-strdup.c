@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-* strdup - returns a pointer to a newly allocated space in memory, which
+* _strdup - returns a pointer to a newly allocated space in memory, which
 * contains a copy of the string given as a parameter
 *
 * @str: string given as a parameter
@@ -24,7 +24,7 @@ char *_strdup(char *str)
 		i++;
 		result = i;
 	}
-	arr = (char *) malloc(sizeof(char) * result);
+	arr = (char *) malloc(sizeof(char) * (result + 1));
 	if (str == 0)
 	{
 		return (NULL);
