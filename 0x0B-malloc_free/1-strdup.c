@@ -6,8 +6,7 @@
 * strdup - returns a pointer to a newly allocated space in memory, which
 * contains a copy of the string given as a parameter
 *
-* @str: string given as a parameter 
-*
+* @str: string given as a parameter
 * Return: a pointer to the string
 */
 
@@ -36,7 +35,7 @@ char *_strdup(char *str)
 	}
 	else
 	{
-	while (str[j] !='\0')
+	while (str[j] != '\0')
 	{
 		arr[j] = str[j];
 		j++;
