@@ -25,11 +25,11 @@ char *_strdup(char *str)
 		result = i;
 	}
 	arr = (char *) malloc(sizeof(char) * (result + 1));
-	if (str == NULL)
+	if (str == 0)
 	{
 		return (NULL);
 	}
-	else if (arr == 0)
+	else if (arr == NULL)
 	{
 		return (NULL);
 	}
