@@ -22,10 +22,10 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 	new = head;
 	for (i = 0; i < index; i++)
 	{
-		if (new->next != NULL)
-			new = new->next;
-		else
+		if (new == NULL)
 			return (NULL);
+		else
+			 new = new->next;
 	}
 	return (new);
 }
