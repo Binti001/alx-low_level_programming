@@ -16,5 +16,5 @@ void print_binary(unsigned long int n)
 		print_binary(n >> 1);
 	}
 	/* print the binary number from last digit to first digit */
-	putchar((n & 1) + '0');
+	_putchar((n & 1) + '0');
 }
